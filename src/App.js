@@ -1,8 +1,9 @@
 import logo from './logo.svg';
-import {Navbar,NavbarBrand} from 'reactstrap';
-import './App.css';
+import { Navbar, NavbarBrand } from 'reactstrap';
 import { render } from '@testing-library/react';
 import React,{ Component } from 'react';
+import Menu from './components/MenuComponent';
+import './App.css';
 
 class App extends Component{
   render(){
@@ -13,6 +14,7 @@ class App extends Component{
           <NavbarBrand href="/"> Ristorante Con Fusion</NavbarBrand>
         </div>
       </Navbar>
+      <Menu  />
 
      
     </div>
